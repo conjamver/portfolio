@@ -1,0 +1,168 @@
+//Sass varables
+$heroOpacity: 0.65;
+$heroColor: 0;
+$heroUrl: '/img/hero_connor_grayscale.jpg';
+
+$white: #fefefe;
+
+
+html{
+  height:100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav{
+  background-color:#111111;
+  position:fixed;
+  width: 100%;
+  color:$white;
+
+
+  .navContent{
+    display:flex;
+    justify-content: space-between;
+    padding:0 64px;
+    //Nav bar link style
+    ul{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin:0;
+        padding:0;
+
+
+        li{
+            padding:24px 24px;
+            font-weight: 600;
+            list-style-type: none;
+
+
+            a{
+              text-decoration: none;
+              color:$white;
+            }
+
+        }
+
+        li:hover{
+          background-color:grey;
+          transition:0.25s;
+        }
+    }
+  }
+
+
+}
+
+
+////////////////Hero Styles///////////////////
+#heroContainer{
+
+  width: 100wh;
+  height: 100vh;
+  display: flex;
+  color:$white;
+
+  background:-webkit-linear-gradient(rgba($heroColor,$heroColor,$heroColor,$heroOpacity), rgba($heroColor,$heroColor,$heroColor,$heroOpacity)), url($heroUrl);
+  background:-o-linear-gradient(rgba($heroColor,$heroColor,$heroColor,$heroOpacity), rgba($heroColor,$heroColor,$heroColor,$heroOpacity)), url($heroUrl);
+  background:linear-gradient(rgba($heroColor,$heroColor,$heroColor,$heroOpacity), rgba($heroColor,$heroColor,$heroColor,$heroOpacity)), url($heroUrl);
+  background-size: cover;
+  background-position: center;
+
+
+  .hero-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+
+    h1{
+      font-size:48px;
+    }
+
+    .hero-buttons{
+      button{
+        background-color:transparent;
+        color:$white;
+        border: 1px solid $white;
+        border-radius:4px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 15px 26px;
+        margin:0 8px;
+        outline:none;
+        cursor:pointer;
+
+      }
+
+      button:hover{
+        background-color:$white;
+        color:black;
+        transition: 0.25s;
+      }
+    }
+  }
+
+}
+
+
+////////////////Footer Styles///////////////////
+footer{
+  background-color:#303030;
+  color:$white;
+  padding:24px 64px;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .footer-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:600px;
+
+    .footer-socialRow{
+      font-size:36px;
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+
+      .footer-socialCol{
+        background-color:#111111;
+        width:55px;
+        height:55px;
+        margin:0 8px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+        a{
+          color:$white;
+        }
+      }
+
+    }
+
+
+
+    .footer-info{
+      font-size: 12px;
+
+      a{
+        color:$white;
+      }
+    }
+
+  }
+}
