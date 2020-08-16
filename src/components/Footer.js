@@ -21,7 +21,7 @@ function Footer() {
           <p>&copy; Copyright Connor Vernon {currentYear}</p>
           <p className="footer-info">
           This site was built with the React framework. Icons served all over the website by <a href="https://fontawesome.com" target="_blank">Font Awesome</a>.
-          Portfolio hosted using GitHub pages. Portfolio source code can be found here: <a href="https://fontawesome.com" target="_blank">xxxx</a>.
+          Portfolio hosted using GitHub pages. Portfolio source code can be found here: <a href="https://github.com/conjamver/portfolio" target="_blank">https://github.com/conjamver/portfolio</a>.
           </p>
         </div>
 
