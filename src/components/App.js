@@ -13,6 +13,7 @@ function createProject(project){
     techstack={project.techstack}
     summary={project.summary}
     imgURL={project.imgURL}
+    summaryPoints={project.summaryPoints}
     />
   );
 }

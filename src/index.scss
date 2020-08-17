@@ -47,13 +47,12 @@ nav{
             padding:24px 24px;
             font-weight: 600;
             list-style-type: none;
+            cursor:pointer;
+        }
 
-
-            a{
-              text-decoration: none;
-              color:$white;
-            }
-
+        a{
+          text-decoration: none;
+          color:$white;
         }
 
         li:hover{
@@ -130,7 +129,7 @@ nav{
   color:$darkGrey;
   max-width:1140px;
   margin:0 auto;
-  padding:15px 30px;
+  padding:15px 0px;
 
   h1::after{
     width:60%;
@@ -150,7 +149,7 @@ nav{
 
     .col-50{
       width:50%;
-      padding:0 30px;
+      padding:0 15px;
 
     }
 
@@ -183,6 +182,7 @@ nav{
   img{
     width: 100%;
     height:auto;
+    border-radius: 4px;
   }
 
 
@@ -215,6 +215,11 @@ footer{
       flex-direction: row;
       align-items: center;
 
+      a{
+        color:$white;
+        text-decoration: none;
+      }
+
       .footer-socialCol{
         background-color:#111111;
         width:55px;
@@ -226,16 +231,12 @@ footer{
         cursor:pointer;
         transition:$t-fast;
 
-        a{
-          color:$white;
-        }
-
       }
 
       .footer-socialCol:hover{
         background-color:grey;
         transition:$t-fast;
-        font-size:24px;
+        font-size:26px;
       }
 
     }

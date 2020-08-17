@@ -6,8 +6,8 @@ function Nav() {
       <div className="navContent">
         <h1>C.V.</h1>
         <ul>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <a href="#projects"><li>Projects</li></a>
+          <a href="#contact"><li>Contact</li></a>
         </ul>
       </div>
     </nav>

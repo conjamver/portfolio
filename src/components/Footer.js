@@ -8,13 +8,17 @@ function Footer() {
         <div className="footer-content">
           <div className="footer-socialRow">
 
+          <a href="https://github.com/conjamver" target="_blank">
             <div className="footer-socialCol">
-              <a href="https://github.com/conjamver" target="_blank"><i class="fab fa-github"></i></a>
+              <i class="fab fa-github"></i>
             </div>
+          </a>
 
+            <a href="https://www.linkedin.com/in/cjvernon/" target="_blank">
             <div className="footer-socialCol">
-              <a href="https://www.linkedin.com/in/cjvernon/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <i class="fab fa-linkedin-in"></i>
             </div>
+            </a>
 
           </div>
 
