@@ -13,7 +13,7 @@ function Project(props) {
   return (
     <div class="row">
       <div class="col-50">
-        <img src='https://conjamver.github.io/portfolio/img/doshalley_1.jpg'/>
+        <img src={props.imgURL}/>
       </div>
       <div class="col-50">
         <h2>{props.title}</h2><span class="project-year"> {props.year}</span>

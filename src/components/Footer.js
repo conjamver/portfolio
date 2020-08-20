@@ -27,6 +27,7 @@ function Footer() {
           This site was built with the React framework. Icons served all over the website by <a href="https://fontawesome.com" target="_blank">Font Awesome</a>.
           Portfolio hosted using GitHub pages. Portfolio source code can be found here: <a href="https://github.com/conjamver/portfolio" target="_blank">https://github.com/conjamver/portfolio</a>.
           </p>
+          <p className="footer-info"><a href="https://conjamver.github.io/portfolio_old/" target="_blank">Click here to view a 2018 version of my portfolio.</a></p>
         </div>
 
       </footer>
